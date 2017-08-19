@@ -16,6 +16,10 @@ public class cp_07_1 implements Callable<Integer>{
 		cp_07_1 cp_07_1 = new cp_07_1();
 		cp_07_1 cp_07_1 = new cp_07_1();
 		cp_07_1 cp_07_1 = new cp_07_1();
+		cp_07_1 cp_07_1 = new cp_07_1();
+		cp_07_1 cp_07_1 = new cp_07_1();
+		cp_07_1 cp_07_1 = new cp_07_1();
+		cp_07_1 cp_07_1 = new cp_07_1();
 		FutureTask<Integer> futureTask = new FutureTask<Integer>(cp_07_1);
 		Thread thread = new Thread(futureTask);
 		thread.start();
