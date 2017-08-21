@@ -9,6 +9,7 @@ package Volatile;
 public class Volatile_18 {
 
 	private volatile int a = 1;
+	private volatile int a = 1;
 
 	public int getA() {
 		return a;
