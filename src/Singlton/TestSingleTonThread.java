@@ -12,6 +12,10 @@ public class TestSingleTonThread {
 			threadPool.execute(new Runnable() {
 				
 				@Override
+				@Override
+				@Override
+				@Override
+				@Override
 				public void run() {
 					LazzyModel hs = LazzyModel.getInstance();
 					System.out.println(Thread.currentThread().getName()+ " "+hs.hashCode());
