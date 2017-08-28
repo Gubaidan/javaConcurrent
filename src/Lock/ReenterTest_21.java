@@ -10,6 +10,8 @@ public class ReenterTest_21 {
 		System.out.println("a");
 		b();
 		lock.unlock();
+		lock.unlock();
+		lock.unlock();
 	}
 	public static void b() {
 		lock.lock();
